@@ -53,8 +53,8 @@ var Application = React.createClass({
         var Twitter = require("../Twitter/Twitter");
         var Contact = require("../Contact/Contact");
 
-        //require("../../../node_modules/font-awesome/css/font-awesome.css");
-        //require("../../../node_modules/bootstrap/dist/css/bootstrap.min.css");
+        require("../../../node_modules/font-awesome/css/font-awesome.css");
+        require("../../../node_modules/bootstrap/dist/css/bootstrap.min.css");
 
         require("./Application.css");
         //require("./Application.styl");
