@@ -1,1 +1,1 @@
-web: webpack -p --progress | node server
+web: node server

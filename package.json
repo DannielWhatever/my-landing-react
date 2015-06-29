@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack --progress && node server",
-    "production": "webpack -p --progress && node server"
+    "production": "webpack -p --progress && node server",
+    "postinstall": "webpack -p --progress"
   },
   "author": "@DannielWhatever",
   "dependencies": {
