@@ -27,6 +27,7 @@
     "react": "^0.10.0",
     "stylus": "^0.51.1",
     "stylus-loader": "^1.2.1",
+    "twitter": "^1.2.5",
     "url-loader": "^0.5.6"
   }
 }

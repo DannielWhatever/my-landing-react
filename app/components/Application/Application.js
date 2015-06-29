@@ -16,25 +16,28 @@ var Application = React.createClass({
                 skills: [
                     {key:1, title:'Javascript'},
                     {key:2, title:'Angular'},
-                    {key:3, title:'Backbone'}
+                    {key:3, title:'Backbone'},
+                    {key:4, title:'Preprocesadores CSS'}
                 ]
             },
             {
                 key:2,
                 title: 'Back End' ,
                 skills: [
-                    {key:1, title:'Javascript'},
-                    {key:2, title:'Angular'},
-                    {key:3, title:'Backbone'}
+                    {key:1, title:'Java'},
+                    {key:2, title:'Spring Framework'},
+                    {key:3, title:'PHP'},
+                    {key:4, title:'Node.Js'}
                 ]
             },
             {
                 key:3,
                 title: 'Otros' ,
                 skills: [
-                    {key:1, title:'Javascript'},
-                    {key:2, title:'Angular'},
-                    {key:3, title:'Backbone'}
+                    {key:1, title:'SQL'},
+                    {key:2, title:'RESTFul'},
+                    {key:3, title:'GIT'},
+                    {key:4, title:'Design Patterns'}
                 ]
             }
         ];
@@ -64,7 +67,7 @@ var Application = React.createClass({
                 <AboutMe />
                 <Skills categories={categories} />
                 <InAction pics={pics} />
-                <Twitter />
+                <Twitter tweets={this.props.tweets} />
                 <Contact />
             </div>
         );

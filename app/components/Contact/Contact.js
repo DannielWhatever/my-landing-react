@@ -31,7 +31,7 @@ var Contact = React.createClass({
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="">
+                                    <a href="https://www.linkedin.com/profile/view?id=216836458">
                                         <i className="fa fa-linkedin fa-fw fa-3x"></i>
                                     </a>
                                 </li>
@@ -43,7 +43,7 @@ var Contact = React.createClass({
                             </ul>
                             <hr className="small" />
                             <p className="text-muted">
-                                Copyright &copy; <a href="">@DannielWhatever</a> 2015
+                                Copyright &copy; <a href="https://twitter.com/DannielWhatever">@DannielWhatever</a> 2015
                                 <br/>
                                 Basado en un template de <a href="http://startbootstrap.com/template-overviews/stylish-portfolio/">Start Bootstrap</a>.
                             </p>
