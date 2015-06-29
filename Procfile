@@ -1,1 +1,1 @@
-web: npm run production
+web: webpack -p --progress | node server
