@@ -13,16 +13,18 @@ var Application = React.createClass({
             {
                 key:1,
                 title: 'Front End' ,
+                classIcon: 'fa fa-rocket fa-stack-1x text-primary',
                 skills: [
-                    {key:1, title:'Javascript'},
-                    {key:2, title:'Angular'},
-                    {key:3, title:'Backbone'},
-                    {key:4, title:'Preprocesadores CSS'}
+                    {key:1, title:'Angular JS'},
+                    {key:2, title:'Backbone'},
+                    {key:3, title:'Preprocesadores CSS'},
+                    {key:4, title:'Task runners'}
                 ]
             },
             {
                 key:2,
                 title: 'Back End' ,
+                classIcon: 'fa fa-code fa-stack-1x text-primary',
                 skills: [
                     {key:1, title:'Java'},
                     {key:2, title:'Spring Framework'},
@@ -33,8 +35,9 @@ var Application = React.createClass({
             {
                 key:3,
                 title: 'Otros' ,
+                classIcon: 'fa fa-cloud fa-stack-1x text-primary',
                 skills: [
-                    {key:1, title:'SQL'},
+                    {key:1, title:'Oracle'},
                     {key:2, title:'RESTFul'},
                     {key:3, title:'GIT'},
                     {key:4, title:'Design Patterns'}

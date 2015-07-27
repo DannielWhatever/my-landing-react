@@ -5,6 +5,7 @@ var React = require("react");
 var Skills = React.createClass({
     render: function() {
         //require("./Application.css");
+
         return (
             <section id="skills" className="skills bg-primary">
                 <div className="container">
@@ -19,7 +20,7 @@ var Skills = React.createClass({
                                             <div className="skill-item">
                                                 <span className="fa-stack fa-4x">
                                                     <i className="fa fa-circle fa-stack-2x"></i>
-                                                    <i className="fa fa-cloud fa-stack-1x text-primary"></i>
+                                                    <i className={categorie.classIcon}></i>
                                                 </span>
                                                 <h4>
                                                     <strong> {categorie.title} </strong>
