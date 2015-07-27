@@ -5,6 +5,9 @@ Hola, este es el código de mi landing page, he usado como template [Start Boots
 ##Getting Started
 
 * Clone repo
-* ´npm install´ 
+* ´npm install´
 * ´npm run start´  
-* Open http://localhost:3000 
+* Open http://localhost:3000
+
+
+heroku GIT: https://git.heroku.com/salty-ridge-2960.git
