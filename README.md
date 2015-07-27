@@ -5,8 +5,8 @@ Hola, este es el código de mi landing page, he usado como template [Start Boots
 ##Getting Started
 
 * Clone repo
-* ´npm install´
-* ´npm run start´  
+* `npm install`
+* `npm run start`
 * Open http://localhost:3000
 
 
@@ -15,10 +15,10 @@ Hola, este es el código de mi landing page, he usado como template [Start Boots
 
 heroku GIT: https://git.heroku.com/salty-ridge-2960.git
 
-**commands:**
-*wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
-*heroku login
-*git remote add heroku https://git.heroku.com/salty-ridge-2960.git
+####commands:
+* `wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh`
+* `heroku login`
+* `git remote add heroku https://git.heroku.com/salty-ridge-2960.git`
 * ~.~
-*git push heroku master
-*heroku logs --tail
+* `git push heroku master`
+* `heroku logs --tail`
